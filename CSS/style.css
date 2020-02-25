@@ -79,11 +79,11 @@ p {
 }
 
 .row {
+  display: flex;
   border-bottom: 1px solid grey;
   width: 375px;
   padding: 27px 0;
   padding-top: 0px;
-  display: flex;
 }
 
 .busnumber {
@@ -91,7 +91,7 @@ p {
   display: inline-block;
   font-size: 36px;
   font-weight: bold;
-  text-align: center;
+  text-align: center off the body;
   padding-top: 14px;
   min-width: 100px;
 }
