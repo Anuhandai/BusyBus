@@ -5,29 +5,30 @@
     <title>BusyBus</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <script src="https://use.fontawesome.com/37471687aa.js"></script>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
   </head>
   <body>
     <header>
       <section class="statusbar">
         <img src="images/Base.png" alt="statusbar">
       <nav>
-        <i class="fas fa-chevron-left"></i>
+        <li class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-left" class="svg-inline--fa fa-chevron-left fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z"></path></svg>
+        </li>
         <p>Back</p>
         <h2>Washington and State</h2>
       </nav>
     </header>
     <!-- /*Eastbound line60&line124*/ -->
     <section class="buslist">
+      <h1>Eastbound</h1>
       <ul class="row">
-        <h1>Eastbound</h1>
         <li class="busnumber">60</li>
         <li class="destination">Randolph/Harbor Dr</li>
         <li class="time">
           <span class="eta">5min</span><br>
           <span class="frequency">every 20 min</span>
         </li>
-        <li class="icon"></li><i class="fas fa-chevron-right"></i></li>
+        <li class="icon"></li>
       </ul>
       <!-- /*line124*/ -->
       <ul class="row">
@@ -37,11 +38,11 @@
           <span class="eta">5min</span><br>
           <span class="frequency">every 10 min</span>
         </li>
-        <li class="icon"></li><i class="fas fa-chevron-right"></i></li>
+        <li class="icon"><i class="fas fa-chevron-right"></i></li>
       </ul>
       <!-- /*Northbound line151*/ -->
+      <h1>Northbound</h1>
       <ul class="row">
-        <h1>Northbound</h1>
         <li class="busnumber">151</li>
         <li class="destination">Devon/Clark</li>
         <li class="time">
@@ -51,8 +52,8 @@
         <li class="icon"></li><i class="fas fa-chevron-right"></i></li>
       </ul>
       <!-- /*Southbound lineJ14&line124*/ -->
+      <h1>Southbound</h1>
       <ul class="row">
-        <h1>Southbound</h1>
         <li class="busnumber">J14</li>
         <li class="destination">103rd/Stony Island</li>
         <li class="time">
@@ -72,16 +73,16 @@
         <li class="icon"></li><i class="fas fa-chevron-right"></i></li>
       </ul>
       <!-- /*reroute*/ -->
+      <h3>Reroute</h3>
       <ul class="row">
-        <h3>Reroute</h3>
         <li class="busnumber">6x</li>
         <li class="destination">Jackson Park Express</li>
         <li class="time">N/A</li>
         <li class="icon"></li><i class="fas fa-chevron-right"></i></li>
       </ul>
       <!-- /*OOS*/ -->
+      <h4>Out of Service</h4>
       <ul class="row">
-        <h4>Out of Service</h4>
         <li class="busnumber">4</li>
         <li class="destination">Cottage Grove</li>
         <li class="time">
@@ -89,7 +90,7 @@
         </li>
         <li class="icon"></li><i class="fas fa-chevron-right"></i></li>
       </ul>
-
+      <!-- /*line20*/ -->
       <ul class="row">
         <li class="busnumber">20</li>
         <li class="destination">Madison</li>
@@ -98,7 +99,7 @@
         </li>
         <li class="icon"></li><i class="fas fa-chevron-right"></i></li>
       </ul>
-
+      <!-- /*line157*/ -->
       <ul class="row">
         <li class="busnumber">157</li>
         <li class="destination">Streeterville/Taylor</li>
