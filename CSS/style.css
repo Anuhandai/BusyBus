@@ -5,7 +5,6 @@
 body {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 18px;
-  text-align: center;
   margin: 0 auto;
   width: 375px;
 
@@ -23,14 +22,10 @@ header {
 }
 
 nav {
+  text-align: left;
   background-color: #007AFF;
   height: 100px;
   padding: 16px;
-}
-
-.fa-chevron-left {
-  display: inline-block;
-  padding-right: 10px;
 }
 
 h1 {
@@ -48,7 +43,7 @@ h3 {
   background-color: #007AFF;
   color: white;
   padding-top: 4px;
-
+text-align: center;
 }
 
 h4 {
@@ -57,12 +52,12 @@ h4 {
   height: 28px;
   background-color: red;
   color: white;
-
+text-align: center;
 }
 h2 {
   padding-top: 15px;
   display: inline-block;
-
+text-align: center;
 }
 
 ul {
@@ -72,6 +67,7 @@ ul {
 
 p {
   display: inline-block;
+  margin: 20px;
 }
 
 .buslist {
@@ -82,17 +78,15 @@ p {
   display: flex;
   border-bottom: 1px solid grey;
   width: 375px;
-  padding: 27px 0;
+  padding: 10px 0;
   align-items: baseline;
 }
 
 .busnumber {
-  padding-left: 12px;
   display: inline-block;
   font-size: 36px;
   font-weight: bold;
-  text-align: center off the body;
-  padding-top: 14px;
+  text-align: center;
   min-width: 100px;
 }
 
@@ -100,6 +94,7 @@ p {
   font-size: 18px;
   display: inline-block;
   padding-top: 20px;
+  flex: 1;
 }
 
 .route{
@@ -108,13 +103,13 @@ p {
 
 .time {
   text-align: right;
+  font-size: 14px;
 }
 
 .eta {
+  color: #1B720D;
 }
 
-.frequency {
-}
 
 .icon {
 
