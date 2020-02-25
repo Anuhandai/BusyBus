@@ -83,7 +83,7 @@ p {
   border-bottom: 1px solid grey;
   width: 375px;
   padding: 27px 0;
-  padding-top: 0px;
+  align-items: baseline;
 }
 
 .busnumber {
@@ -99,6 +99,7 @@ p {
 .destination {
   font-size: 18px;
   display: inline-block;
+  padding-top: 20px;
 }
 
 .route{
@@ -106,13 +107,10 @@ p {
 }
 
 .time {
-  display: inline-block;
-  font-size: 14px;
 
 }
 
 .eta {
-  padding-left: auto;
 
 }
 
@@ -121,5 +119,5 @@ p {
 }
 
 .icon {
-  float: right;
+
 }
