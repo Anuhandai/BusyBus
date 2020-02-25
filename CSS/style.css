@@ -107,15 +107,13 @@ p {
 }
 
 .time {
-
+  text-align: right;
 }
 
 .eta {
-
 }
 
 .frequency {
-
 }
 
 .icon {
