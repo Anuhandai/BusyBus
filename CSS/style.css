@@ -7,6 +7,7 @@ body {
   font-size: 18px;
   margin: 0 auto;
   width: 375px;
+  height: 900px;
 
 }
 
@@ -18,7 +19,6 @@ header {
   width: 375px;
   background-color: #007AFF;
   color: white;
-
 }
 
 nav {
@@ -40,21 +40,21 @@ h1 {
 h3 {
   width: 375px;
   height: 28px;
-  background-color: #007AFF;
+  background-color: red;
   color: white;
-  padding-top: 4px;
-text-align: center;
+  text-align: center;
 }
 
 h4 {
   padding-top: 4px;
   width: 375px;
   height: 28px;
-  background-color: red;
+  background-color: #979797;
   color: white;
 text-align: center;
 }
 h2 {
+  font-size: 20px;
   padding-top: 15px;
   display: inline-block;
 text-align: center;
@@ -78,8 +78,7 @@ p {
   display: flex;
   border-bottom: 1px solid grey;
   width: 375px;
-  padding: 10px 0;
-  align-items: baseline;
+
 }
 
 .busnumber {
@@ -88,6 +87,7 @@ p {
   font-weight: bold;
   text-align: center;
   min-width: 100px;
+  padding: 10px;
 }
 
 .destination {
@@ -104,6 +104,8 @@ p {
 .time {
   text-align: right;
   font-size: 14px;
+  padding-right: 10px;
+  padding-top: 18px;
 }
 
 .eta {
