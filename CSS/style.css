@@ -104,9 +104,9 @@ p {
   display: inline-block;
   font-size: 14px;
   text-align: right;
-  float: right;
-  align-self: center;
   padding-top: 15px;
+  align: right;
+
 
 }
 
@@ -120,5 +120,7 @@ p {
 
 .icon {
   display: inline-block;
-  align-self: center;
+  margin-top: 20px;
+  position: relative;
+
 }
