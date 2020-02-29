@@ -104,10 +104,10 @@ p {
   display: inline-block;
   font-size: 14px;
   text-align: right;
-  padding-top: 15px;
+  padding-top: 16px;
   align: right;
-
-
+  float: right;
+  padding-right: 10px;
 }
 
 .eta {
@@ -121,6 +121,6 @@ p {
 .icon {
   display: inline-block;
   margin-top: 20px;
-  position: relative;
-
+  float: right;
+  padding-right: 10px;
 }
